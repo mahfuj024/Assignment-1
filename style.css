@@ -160,51 +160,51 @@
     margin-bottom: 14px;
 }
 
-#vision-card-1{
+#vision-card-1 {
     background: rgba(84, 144, 245, 0.2)
 }
 
-.vision-card-1-btn{
+.vision-card-1-btn {
     color: rgb(255, 255, 255);
-font-size: 16px;
-font-weight: 600;
-border-radius: 8px;
-background: rgb(84, 144, 245);
-padding: 11px 20px;
-border: none;
-margin-top: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    padding: 11px 20px;
+    border: none;
+    margin-top: 35px;
 }
 
-.vision-card-1-btn:hover{
+.vision-card-1-btn:hover {
     background-color: aqua;
     color: black;
 }
 
-#vision-card-2{
+#vision-card-2 {
     background: rgb(198, 228, 214);
 }
 
-.vision-card-2-btn{
+.vision-card-2-btn {
     color: rgb(255, 255, 255);
-font-size: 16px;
-font-weight: 600;
-border-radius: 8px;
-background: rgb(9, 161, 92);
-padding: 11px 20px;
-border: none;
-margin-top: 48px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    padding: 11px 20px;
+    border: none;
+    margin-top: 50px;
 }
 
-.vision-card-2-btn:hover{
+.vision-card-2-btn:hover {
     background-color: rgb(201, 252, 252);
     color: black;
 }
 
-#vision-card-3{
+#vision-card-3 {
     background: rgb(247, 235, 207);
 }
 
-.vision-card-3-btn{
+.vision-card-3-btn {
     color: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: 600;
@@ -212,33 +212,125 @@ margin-top: 48px;
     background: rgb(255, 194, 57);
     padding: 11px 20px;
     border: none;
-    margin-top: 48px; 
+    margin-top: 39px;
 }
 
-.vision-card-3-btn:hover{
+.vision-card-3-btn:hover {
     background-color: rgb(149, 255, 190);
     color: black;
 }
 
-
-.vision-Muhammad{
+.vision-Muhammad {
     margin-top: 32px;
     max-width: 1280px;
     height: 256px;
     border: 2px solid red;
     padding: 62px 30px 40px 38px;
     border: 1px solid rgba(14, 14, 14, 0.15);
-border-radius: 16px;
-background: rgb(255, 255, 255);
-background-image: url("assets/quote-bg.png");
-background-repeat: no-repeat;
-background-position: 3.2% 19%;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    background-image: url("assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: 3.2% 19%;
 }
 
-.vision-Muhammad-heading{
+.vision-Muhammad-heading {
     color: rgba(14, 14, 14, 0.8);
-font-size: 20px;
-margin-top: 12px;
-margin-bottom: 4px;
-font-weight: 600;
+    font-size: 20px;
+    margin-top: 12px;
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+
+/* Opinion section style */
+.opinion {
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.opinion-heading {
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.opinion-table-heading-right {
+    color: rgb(14, 14, 14);
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 50px;
+}
+
+.opinion-table-heading-left {
+    color: rgb(14, 14, 14);
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+
+.opinion-table {
+    max-width: 1280px;
+    height: 353px;
+    padding-top: 30px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-top: 24px;
+}
+
+.opinion-table-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1216px;
+    height: 72px;
+    margin: 0 auto;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(198, 228, 214);
+}
+
+.opinion-table-description {
+    border: 2px solid black;
+    width: 1216px;
+    height: 72px;
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(255, 255, 255, 0.1);
+    border-top: none;
+}
+
+.opinion-table-description-left {
+    width: 1017px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.opinion-table-description-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 70px;
+}
+
+.opinion-table-description-left-text {
+    color: rgb(14, 14, 14);
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+
+.opinion-table-btn {
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    background: rgb(198, 228, 214);
+    padding: 10px 14px;
+}
+
+.opinion-table-btn:hover{
+    background-color: rgb(192, 183, 126);
+    color: black;
 }
