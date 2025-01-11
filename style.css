@@ -468,6 +468,87 @@
     margin-top: 32px;
 }
 
-#donate-btn{
+#donate-btn {
     margin-top: 32px;
+}
+
+/* newsletter section style */
+.newsletter {
+    margin: 0 auto;
+    width: 1280px;
+    height: 395px;
+    margin-top: 80px;
+    text-align: center;
+    padding: 80px 100px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+}
+
+.newsletter-heading {
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    margin-bottom: 18px;
+    font-weight: 700;
+}
+
+.newslater-input {
+    width: 600px;
+    height: 55px;
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 40px;
+    margin-top: 34px;
+    border: none;
+}
+
+.newslatter-btn {
+    width: 150px;
+    height: 56px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+    border: none;
+    margin-left: -4px;
+}
+
+.newslatter-btn:hover {
+    background-color: aqua;
+    color: black;
+}
+
+.newslatter-description {
+    margin-top: 33px;
+}
+
+/* footer style */
+.footer {
+    margin-top: 110px;
+    text-align: center;
+}
+
+.footer-heading {
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.footer-hr{
+    width: 1122px;
+    margin: 0 auto;
+    margin-top: 31px;
+}
+
+.footer-image-container{
+    margin-top: 32px;
+}
+
+.footer-img{
+    margin: 0px 23px 0px 23px;
 }
