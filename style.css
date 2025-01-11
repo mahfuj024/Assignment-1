@@ -17,7 +17,7 @@
     color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 600;
-    padding: 17px 34px;
+    padding: 14px 28px;
     border: none;
 }
 
@@ -330,7 +330,66 @@
     padding: 10px 14px;
 }
 
-.opinion-table-btn:hover{
+.opinion-table-btn:hover {
     background-color: rgb(192, 183, 126);
     color: black;
 }
+
+/* news section style */
+.news {
+    margin: 0 auto;
+    max-width: 1280px;
+    margin-top: 80px;
+}
+
+.news-heading {
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.news-description {
+    margin-top: 24px;
+}
+
+.news-card {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    height: 402px;
+    width: 1280px;
+    margin-top: 30px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    padding: 48px;
+}
+
+.news-card-img {
+    border-radius: 24px;
+}
+
+.news-card-text {
+    margin-left: 32px;
+}
+
+.news-card-heading {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    margin-bottom: 16px;
+    font-weight: 700;
+}
+
+.aljazeera-img{
+    margin-bottom: 16px;
+}
+
+.news-card-time{
+    margin-left: 10px;
+}
+
+.news-card-description{
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+/* Donate section style */
